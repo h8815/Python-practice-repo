@@ -17,9 +17,4 @@ ls
 git status
 git restore testing.py
 
-git status
-git status
-git add .
-git commit -m "Git commands"
-git status
-clear
+git commands
