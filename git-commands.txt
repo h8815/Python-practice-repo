@@ -22,9 +22,9 @@ git add .
 git commit -m "Git commands"
 git status
 clear
-git remote add origin (gitHub url)
+git remote add origin https://github.com/h8815/Git-and-Github.git
 git remote -v
 git branch
-git remote set-url origin (ACCESS TOKEN)
+git remote set-url origin https://(ACCESS TOKEN)@github.com/h8815/Git-and-Github.git
 git  remote -v
 git push origin master
