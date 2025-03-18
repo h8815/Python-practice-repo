@@ -1,0 +1,19 @@
+git init
+clear
+ls -a
+git status
+clear
+git status
+git add testing.py
+git status
+git commit -m "testing file added"
+clear
+git status
+git add .
+git status
+git commit -m "testing file"
+rm testing.py
+ls
+git status
+git restore testing.py
+git status
