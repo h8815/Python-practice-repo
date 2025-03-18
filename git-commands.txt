@@ -25,6 +25,6 @@ clear
 git remote add origin (gitHub url)
 git remote -v
 git branch
-git remote set-url origin https://(ACCESS TOKEN)T@github.com/h8815/Git-and-Github.git
+git remote set-url origin (ACCESS TOKEN)
 git  remote -v
 git push origin master
