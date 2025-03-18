@@ -5,3 +5,6 @@ git remote add origin <link>
 git remote -v
 git branch
 git push origin branch_name
+
+
+git pull origin branch_name  (github to local system (PC) )
