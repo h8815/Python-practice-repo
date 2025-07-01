@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
-        run: "ping google.com"
+        run: echo "pinging google.com", ping google.com
