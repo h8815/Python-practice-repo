@@ -22,8 +22,8 @@ class Account:
         print(f"Account - {self.acc_no}\nBalance :- {self.bal}") 
 
 
-acc_no = (input("Enter 10 digit account number : "))
-if len(acc_no) == 10 :
+acc_no = (input("Enter 15 digit account number : "))
+if len(acc_no) == 15 :
     balance = 10000
     a1 = Account(balance,acc_no)
     print("What do you want to do ?")

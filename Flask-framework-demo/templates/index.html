@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+{% block body %}
+<h1> Welcome...</h1>
+<form class="myform" action="/postdata" method="post">
+    <label for="Firstname"><h2>First name:</h2></label>
+    <input type="text" name="Firstname" /><br>
+    <label for="Lastname"><h2>Last name:</h2></label>    
+    <input type="text" name="Lastname" /><br>
+    <button type="submit" class="btn">Submit</button> 
+</form>
+
+{% endblock %}
