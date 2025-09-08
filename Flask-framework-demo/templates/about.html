@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+{% block body %}
+<h1>Welcome to the about page</h1>
+<ul>
+    {% for i in data %}
+        {% if i%2 == 0: %}
+            <li><h1>{{ i }}</h1></li>
+        {% endif %}
+    {% endfor %}
+</ul>
+{% endblock %}

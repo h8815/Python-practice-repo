@@ -1,0 +1,15 @@
+h1{
+    color:blue;
+    font-size: 1.5cm;
+    text-align: center;
+    margin-top: 20px;
+}
+.myform{
+    margin: 0 auto;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
